@@ -64,6 +64,7 @@ const Footer = () => {
               <a href="https://instagram.com/utugischool" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                 <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                   <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-2.625 4.5c-.414 0-.75.336-.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75V9.75c0-.414.336-.75.75-.75h1.5v-1.5c0-.414-.336-.75-.75-.75zm10.05 1.5c0-.414.336-.75.75-.75h1.5v-1.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75v1.5h-1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.5v1.5c0 .414.336.75.75.75s.75-.336.75-.75V9.75h1.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z" clipRule="evenodd" />
+                </svg>
               </a>
             </div>
           </div>
