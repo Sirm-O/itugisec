@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FacebookIcon, TwitterIcon } from 'react-share';
+import { MailIcon, PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline';
 
 const Footer = () => {
   return (
@@ -54,17 +55,17 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Social Media</h3>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <Link to="/social/facebook" className="text-gray-300 hover:text-white transition-colors">
                 <FacebookIcon size={32} round={true} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              </Link>
+              <Link to="/social/twitter" className="text-gray-300 hover:text-white transition-colors">
                 <TwitterIcon size={32} round={true} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              </Link>
+              <Link to="/social/instagram" className="text-gray-300 hover:text-white transition-colors">
                 <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                   <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-2.625 4.5c-.414 0-.75.336-.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75V9.75c0-.414.336-.75.75-.75h1.5v-1.5c0-.414-.336-.75-.75-.75zm10.05 1.5c0-.414.336-.75.75-.75h1.5v-1.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75v1.5h-1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.5v1.5c0 .414.336.75.75.75s.75-.336.75-.75V9.75h1.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z" clipRule="evenodd" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div>
@@ -89,12 +90,12 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-blue-500">
           <div className="flex justify-between items-center flex-col sm:flex-row">
             <p className="text-center text-gray-300">
-              © {new Date().getFullYear()} Utugi Secondary School. All rights reserved.
+              &copy; {new Date().getFullYear()} Utugi Secondary School. All rights reserved.
             </p>
             <div className="flex gap-4 mt-4 sm:mt-0">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Use</a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">Sitemap</a>
+              <Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link>
+              <Link to="/terms-of-use" className="text-gray-300 hover:text-white transition-colors">Terms of Use</Link>
+              <Link to="/sitemap" className="text-gray-300 hover:text-white transition-colors">Sitemap</Link>
             </div>
           </div>
         </div>

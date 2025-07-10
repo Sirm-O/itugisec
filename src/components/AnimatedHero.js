@@ -26,9 +26,10 @@ const AnimatedHero = () => {
       observer.observe(container.current);
     }
 
+    const currentElement = container.current;
     return () => {
-      if (container.current) {
-        observer.unobserve(container.current);
+      if (currentElement) {
+        observer.unobserve(currentElement);
       }
     };
   }, [controls]);
