@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MailIcon, PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline';
 
 const Footer = () => {
   return (
@@ -11,9 +10,8 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2.252A8.014 8.014 0 0117.748 8H6.252a8.014 8.014 0 015.748-5.748zM14.75 12a4.5 4.5 0 00-9 0 4.5 4.5 0 009 0zm-4.5 0a.75.75 0 01.75.75v3a.75.75 0 01-1.5 0v-3a.75.75 0 01.75-.75z" />
                 </svg>
                 <p className="text-gray-300">
                   Utugi Secondary School<br />
@@ -21,8 +19,9 @@ const Footer = () => {
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H8a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4 8 4V8.118z" />
                 </svg>
                 <p className="text-gray-300">
                   +254 722 000 000<br />
@@ -30,8 +29,8 @@ const Footer = () => {
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 01-.866 1.866l-1.823 2.838c-.53.814-.334 1.766.216 2.45l2.066 1.653c.54.433 1.313.528 1.907.12L20.488 13c.713-.474.84-1.3.217-1.907l-1.653-2.065a4.006 4.006 0 00-1.173-1.783l-2.839-1.824a3 3 0 01-1.866-.866V6.75A5.25 5.25 0 0012 1.5z" />
                 </svg>
                 <p className="text-gray-300">
                   info@utugi.ac.ke<br />
