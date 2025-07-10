@@ -118,21 +118,21 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto px-4 md:px-16">
           <h2 className="text-3xl font-bold text-center mb-8">Connect With Us</h2>
           <div className="flex justify-center gap-8">
-            <Link to="/social/facebook" className="text-blue-600 hover:text-blue-800">
+            <a href="https://facebook.com/utugischool" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
               <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
-            </Link>
-            <Link to="/social/twitter" className="text-blue-600 hover:text-blue-800">
+            </a>
+            <a href="https://twitter.com/utugischool" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
               <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
-            </Link>
-            <Link to="/social/instagram" className="text-blue-600 hover:text-blue-800">
+            </a>
+            <a href="https://instagram.com/utugischool" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
               <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
